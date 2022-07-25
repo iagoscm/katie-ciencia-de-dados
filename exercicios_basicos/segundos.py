@@ -1,9 +1,16 @@
-def segundos(d,h,m,s):
-    d *= 24
-    d *= 60
-    d *= 60
-    h *= 60
-    h *= 60
-    m *= 60
-    s += d+h+m
-    print(s)
+def segundos(dias,hrs,min,seg):
+    dias *= 24
+    dias *= 60
+    dias *= 60
+    hrs *= 60
+    hrs *= 60
+    min *= 60
+    seg += dias+hrs+min
+    print("O total de segundos eh %.2f" % seg)
+
+dias = int(input("Digite a quantidade de dias: "))
+hrs = float(input("Digite a quantidade de horas: "))
+min = float(input("Digite a quantidade de minutos: "))
+seg = float(input("Digite a quantidade de segundos: "))
+
+segundos(dias, hrs, min, seg)
