@@ -106,6 +106,6 @@
         - Geração de valor ao negócio
         - Monitoramento e aprimoramento contínuo do modelo
 # Mãos à obra!
-- [https://colab.research.google.com/drive/10mEkJA36tridzPuUlhkZctXeaZ4EvvnZ?usp=sharing](https://colab.research.google.com/drive/10mEkJA36tridzPuUlhkZctXeaZ4EvvnZ?usp=sharing)
+- No exercicio1.py estarei tentando realizar um exercicio presente no enunciado que está explícito dentro do próprio código em forma de comentário.
 
 </details> 
