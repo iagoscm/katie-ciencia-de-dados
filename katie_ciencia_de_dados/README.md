@@ -114,7 +114,7 @@
 
 # Introdução à Inteligência Artificial
 
-# Dividido em 4 definições:
+## Dividido em 4 definições:
 - Pensamento humanizado
 
     > O fascinante esforço de fazer computadores pensar… Máquinas com mentes, no completo sentido literal. (Haugeland, 1985)
