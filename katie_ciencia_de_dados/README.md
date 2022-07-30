@@ -1,6 +1,6 @@
 # Aulas e Conteúdos
 
-![Untitled](images/Untitled.png)
+![Cronograma](images/cronograma.png)
 
 ### Estarei deixando separado as anotações para melhor organização do conteúdo
 
@@ -33,7 +33,7 @@
         - O que deve ser feito?
 
 
-![Untitled](images/Untitled%201.png)
+![Competencias](images/competencias.png)
 
 # Tipos de Modelo
     # Descrição de fenômenos do mundo real e digital
@@ -54,7 +54,7 @@
         - Modelo pessoal → Netflix, Instagram, Tiktok
 
 # Etapas de Geração de um Modelo
-![Untitled](images/Untitled%202.png)
+![Divisão de Dados](images/divisao_dados.png)
 
     # Entrada de Dados
         - Separados entre treinamento e teste, um com ajuda humana e outro para testar a capacidade da máquina
@@ -172,5 +172,40 @@
 # Mãos à obra!
 
     Utilize os algoritmos K-NN e Árvore de Decisão para classificar pétalas do conjunto de dados Iris
+
+# Métricas de avaliação
+    # Matriz de confusão
+![Matriz de Confusão](images/matriz_de_confusao.png)
+
+    # Métricas de avaliação de classificação
+![Métricas Classificação](images/metricas_avaliacao.png)
+
+    # Diferença entre acurácia e precisão
+      - O modelo acurado geralmente acerta o alvo, enquanto o preciso é ter consistência nos resultados
+![Exemplos Acurácia e Precisão](images/exemplos_acuracia_precisao.png)
+
+    # Viés e Variância
+        - É preferível que o viés (erro) e a variância sejam baixos, para que sejam resultados acurados e com pouco erro mínimo
+![Modelos Viés e Variância](images/modelos_vies_variancia.png)
+
+      - Nesse gráfico, é possível enxergar a relação entre viés e variância
+![Graficos Viés e Variância](images/grafico_vies_variancia.png)
+
+# Análise de Regressão
+  - Objetiva gerar modelos matemáticos ajustados a um conjunto de dados
+  - O modelo define e prevê padrões no conjunto de dados
+  - O melhor modelo é definido de acordo com uma função de erro, a qual deve ser minimizada
+  - Tipos comuns de modelos regressivos:
+      - Linear
+      - Polinomial
+      - Logístico (Classificação Binária)
+![Graficos Modelos Regressivos](images/graficos_modelos_regressivos.png)
+
+# Modelo de regressão: avaliação de erro
+- Funções comuns:
+  - Erro médio absoluto (MAE)
+  - Erro quadrático médio (MSE)
+  - Raiz do erro quadrático médio (RMSE)
+  - Erro percentual absoluto médio (MAPE)
 
 </details>
