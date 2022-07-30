@@ -20,7 +20,7 @@
         - 9 posição em alta em 2022
         - 60 mil vagas não ocupadas em 2021
         - Média salárial de 6k-9k
-    
+
 # Intro a Ciência de Dados
 
     # Combinação de cic, estat e mat que pode ser usada interdisciplinarmente
@@ -34,7 +34,7 @@
 
 
 ![Untitled](images/Untitled%201.png)
-    
+
 # Tipos de Modelo
     # Descrição de fenômenos do mundo real e digital
     # Geração de valor a negócios
@@ -107,5 +107,70 @@
         - Monitoramento e aprimoramento contínuo do modelo
 # Mãos à obra!
 - No exercicio1.py estarei tentando realizar um exercicio presente no enunciado que está explícito dentro do próprio código em forma de comentário.
+</details>
 
-</details> 
+<details>
+<summary>Inteligência Artificial e Aprendizado de Máquina + Introdução ao Python para Ciência de Dados</summary>
+
+# Introdução à Inteligência Artificial
+
+# Dividido em 4 definições:
+- Pensamento humanizado
+
+    > O fascinante esforço de fazer computadores pensar… Máquinas com mentes, no completo sentido literal. (Haugeland, 1985)
+    >
+
+    > A automação de atividades que associamos com pensamento humano, atividades como tomada de decisão, resolução de problema, aprendizado… (Bellman, 1978)
+    >
+- Pensamento racional
+
+    > É o estudo das faculdades mentais através de modelos computacionais (Charniak e McDermott, 1985)
+    >
+
+    > É o estudo da computação que torna possível sentir, racionalizar, e agir. (Winston, 1992)
+    >
+- Agir humanamente
+
+    > É a arte de construir máquinas que executam funções que demandam
+    inteligência, quando executadas por pessoas. (Kurzweil, 1990)
+    >
+
+    > É o estudo de como fazer computadores realizarem coisas que, no
+    momento, as pessoas fazem de maneira melhor. (Rich and Knight, 1991)
+    >
+- Agir racionalmente
+
+    > Inteligência computacional é o estudo da criação de agentes
+    inteligentes.” (Poole et al., 1998)
+    >
+
+    > IA se preocupa com comportamento inteligente em artefatos. (Nilsson, 1998)
+
+
+# Teste de Turing
+    # Agir humanamente da máquina
+    # Um computador é aprovado no teste de Turing se um humano, após fazer uma série de perguntas, não sabe distinguir se as respostas são de uma máquina ou de outro humano.
+    # Para uma máquina passar nesse teste, demandaria:
+        - Processamento de linguagem natural, ou seja, se comunicar em algum idioma
+        - Representação de conhecimento, ou seja, armazenar o que vê e ouve
+        - Raciocínio automático, ou seja, usar o conhecimento armazenado para responder perguntas e chegar à conclusões
+        - Aprendizado de máquina, que é adaptar-se à novas circunstâncias, identificar padrões e fazer generalizações
+# Atlas <3
+    # Boston Dynamics
+    # Área da robótica
+    # OBS.: Me lembra muito minha vontade de trabalhar com robótica, reabilitação, exoesqueletos e impulsos elétricos
+# Dall-E
+    # Rede neural que reproduz imagens por instruções de texto
+# Aprendizado de Máquina
+    # Sub-área do campo da inteligência artificial
+    # Capacidade da máquina de imitar o comportamento inteligente humano
+    # Divide-se em:
+        - Aprendizado supervisionado (dados rotulados)
+        - Aprendizado não-supervisionado (dados não-rotulados)
+        - Aprendizado por reforço (tentativa e erro)
+
+# Mãos à obra!
+
+    Utilize os algoritmos K-NN e Árvore de Decisão para classificar pétalas do conjunto de dados Iris
+
+</details>
