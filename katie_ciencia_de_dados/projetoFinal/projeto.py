@@ -20,7 +20,7 @@ media = df.drop(columns=['class','GPA','ID','race','from1','from2','from3','from
 aprovados = df['y']
 
 # Faz a media dos alunos
-num = media.median('columns', True)
+tabela_medias = media.median('columns', True)
 
 # Criando e ordenando a tabela
 aprovados_table = {'aprovacoes': aprovados}
@@ -28,8 +28,8 @@ aprovados_table = pd.DataFrame(data = aprovados_table)
 aprovados_table = aprovados_table.sort_values(by='aprovacoes')
 
 # Plotando o grafico
-plt.scatter(num, aprovados_table)
-plt.title("Media por tipo de aprovacao")
-plt.xlabel("medias")
-plt.ylabel("aprovacoes")
+plt.scatter(tabela_medias, aprovados_table)
+plt.title("Media por tipo de aprovação")
+plt.xlabel("Médias")
+plt.ylabel("Tipo de aprovação")
 plt.show()
