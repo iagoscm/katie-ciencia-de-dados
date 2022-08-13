@@ -185,7 +185,7 @@
 ![Exemplos Acurácia e Precisão](images/exemplos_acuracia_precisao.png)
 
 - Viés e Variância
-    - É preferível que o viés (erro) e a variância sejam baixos, para que sejam resultados acurados e com pouco erro mínimo
+    - É preferível que sejam baixos para que sejam resultados acurados e com pouco erro mínimo
 ![Modelos Viés e Variância](images/modelos_vies_variancia.png)
 
   - Nesse gráfico, é possível enxergar a relação entre viés e variância
