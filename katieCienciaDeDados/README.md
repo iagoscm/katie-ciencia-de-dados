@@ -105,8 +105,6 @@
       - Lançamento do modelo em produção
       - Geração de valor ao negócio
       - Monitoramento e aprimoramento contínuo do modelo
-# Mãos à obra!
-- No exercicio1.py estarei tentando realizar um exercicio presente no enunciado que está explícito dentro do próprio código em forma de comentário.
 </details>
 
 <details>
@@ -221,6 +219,58 @@
 - Artigo escrito pela própria IA para se descrever:
   > Can GPT3 write an academic paper on itself, with minimal human input?
   > https://hal.archives-ouvertes.fr/hal-03701250/document
+![Cerebro com Várias Palavras](images/procLingNeural.png)
+
+
+# Similaridade Semântica: Paragraph2Vec
+- É um modelo de representação de texto que utiliza a similaridade semântica entre frases para gerar um vetor de dimensão fixa.
+- Modelo Distributed Memory (DM): Uso de palavras do contexto para inferir uma palavra.
+- Modelo Distributed Bag of Words (DBOW): Inferência de um conjunto de palavras associadas ao contexto de uma palavra de entrada.
+
+# Reconhecimento de Entidades Nomeadas (NER)
+- Treinamento de um modelo para reconhecer entidades nomeadas em um texto
+- Modelos podem ser treinados: ("Dia 15/11/2021 será feriado", {'entities': [(4,14)], ['DATE']})
+- Alguns pacotes disponibilizam modelos: NLTK, SpaCy, Stanford NER.
+- Supervisionado
+
+# Bibliotecas para PLN
+- Word2Vec;
+- Paragraph2Vec;
+- FastText;
+- SpaCy;
+- SBERT;
+
+# Redes Neurais Artificiais
+- Redes Neurais Artificiais (R.N.A.) são redes neurais que utilizam a tecnologia de computação para aprender a reconhecer padrões em um conjunto de dados.
+- RNAs são inspiradas no cérebro humano, que é capaz de aprender a reconhecer padrões em um conjunto de dados.
+- Sua estrutura contém:
+  - Neurônios;
+  - Camadas:
+    - Entrada;
+    - Intermediárias;
+    - Saída;
+  - Sinapses (links|conexões) entre os neurônios;
+  - Função de ativação;
+  - Peso da sinapse (p).
+- RNAs com mais de 3 camadas, incluindo a camada entrada e saída, são chamadas de redes profundas, modelos de aprendizagem profunda.
+![Funcionamento do neurônio](images/neuronio.png)
+- As camadas entre entrada e saída são chamadas de camadas ocultas.
+- Tipos e aplicações
+  - Rede Neural Recurrente (R.N.R.| R.N.N. em inglês)
+    - ideal para séries temporais e predições (vendas, mercado, tempo).
+  - Rede Neural Convolucional (R.N.C.| C.N.N. em inglês)
+    - ideal para identificar padrões, reconhecimento de imagens e visão computacional.
+  -
+
+# A Rede Neural Perceptron
+- É um modelo de aprendizado supervisionado para classificação binária;
+- É uma rede neural cujos os pesos e inclinações podem ser treinados para produzir um vetor alvo que quando apresentamos tem que corresponder ao vetor de entrada.
+- Criada em 1958 por Frank Rosenblatt;
+- Modelo mais antigo;
+- Composta por:
+  - Uma entrada;
+  - Uma saída;
+  - Um neurônio.
 
 
 </details>
