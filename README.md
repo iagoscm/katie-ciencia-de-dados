@@ -167,10 +167,6 @@
     - Aprendizado não-supervisionado (dados não-rotulados)
     - Aprendizado por reforço (tentativa e erro)
 
-# Mãos à obra!
-
-    Utilize os algoritmos K-NN e Árvore de Decisão para classificar pétalas do conjunto de dados Iris
-
 # Métricas de avaliação
 - Matriz de confusão
 ![Matriz de Confusão](images/matriz_de_confusao.png)
