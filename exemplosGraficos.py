@@ -8,8 +8,6 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import plotly.express as px
 
 from os import path
-from PIL import Image
-from google.colab import drive
 
 from urllib.request import urlopen
 import json
@@ -30,11 +28,11 @@ plt.show()
 
 # --- Gráfico de Linhas ---
 
-velocidade = [10, 18, 22, 30, 50, 55, 78, 85, 100, 150]
+velocidade1 = [10, 18, 22, 30, 50, 55, 78, 85, 100, 150]
 tempo = [1,2,3,4,5,6,7,8,9,10]
 
 plt.figure(figsize=(10,5))
-plt.plot(tempo, velocidade, 'r')
+plt.plot(tempo, velocidade1, 'r')
 plt.title("Gráfico de linha")
 plt.xlabel("Tempo")
 plt.ylabel("KM/h")
@@ -97,6 +95,7 @@ sns.scatterplot(data=tips, x="total_bill", y="tip", hue="time")
 plt.title("Gráfico de dispersão")
 plt.show()
 
+# Algo aleatório
 np.random.seed(123456)
 N = 50
 x = np.random.rand(N)
@@ -109,7 +108,7 @@ plt.show()
 
 plt.figure(figsize=(8,8))
 plt.boxplot(notas)
-plt.title("Avaliação AB1 Data vis")
+plt.title("Avaliação dos alunos")
 plt.ylabel("Notas")
 plt.show()
 
@@ -132,7 +131,6 @@ plt.show()
 # --- Bubbleplot ---
 
 colors = np.random.rand(N)
-print(colors)
 area = (30 * np.random.rand(N))**2
 
 plt.figure(figsize=(10,6))
